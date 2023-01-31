@@ -4,8 +4,8 @@ import { Link, NavLink } from 'react-router-dom'
 import LogoS from '../../assets/images/logo-s.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome, faEnvelope, faUser, faLinkedin, faGithub, faTwitter } from '@fortawesome/free-solid-svg-icons'
-import { faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faHome, faEnvelope, faUser } from '@fortawesome/free-solid-svg-icons'
+
 
 const Sidebar = () => {
   return (
@@ -25,23 +25,6 @@ const Sidebar = () => {
                 <FontAwesomeIcon icon={faEnvelope} color='#4d4d4e' />
             </NavLink>        
         </nav>
-        <ul>
-            <li>
-                <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/ianmac87/'>
-                    <FontAwesomeIcon icon={faLinkedin} color='#4d4d4e' />
-                </a>
-            </li>
-            <li>
-                <a target='_blank' rel='noreferrer' href='https://github.com/grainymac'>
-                    <FontAwesomeIcon icon={faGithub} color='#4d4d4e' />
-                </a>
-            </li>
-            <li>
-                <a target='_blank' rel='noreferrer' href='https://www.twitter.com/ianmac__'>
-                    <FontAwesomeIcon icon={faTwitter} color='#4d4d4e' />
-                </a>
-            </li>
-        </ul>
     </div>
   )
 }
