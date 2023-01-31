@@ -6,6 +6,7 @@
     top: 0;
     z-index: 3;
     min-height: 500px;
+
     .logo {
         display: block;
         padding: 8px 0;
@@ -16,7 +17,7 @@
             width: 24px;
             height: auto;
 
-            &:sub-logo {
+            &.sub-logo {
                 width: 50px;
             }
         }
@@ -113,7 +114,8 @@
                 line-height: 16px;
 
                 &:hover svg {
-                    color: #ffd
+                    color: #ffd700;
+                    
                 }
             }
         }
