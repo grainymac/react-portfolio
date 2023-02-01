@@ -41,7 +41,7 @@ const About = () => {
                             <FontAwesomeIcon icon={faGithubAlt} color='#ec4d28'/>
                         </div>
                         <div className='face6'>
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" />
+                            <img alt='material ui' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" />
                         </div>
                     </div>
                 </div>
