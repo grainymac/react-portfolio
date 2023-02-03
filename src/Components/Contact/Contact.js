@@ -17,6 +17,30 @@ const Contact = () => {
                 <h1>
                     <AnimatedLetters letterClass={letterClass} strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']} idx={15}/>
                 </h1>
+                <p>
+                    I am interested in freelance opportunities, especially creative and ambitious projects. If you have any other requests or questions, please do not hesitate to get in touch with me via the form below.
+                </p>
+                <div className='contact-form'>
+                    <form>
+                        <ul>
+                            <li className='half'>
+                                <input type='text' name='name' placeholder='Name' required />
+                            </li>
+                            <li className='half'>
+                                <input type='email' name='email' placeholder='E-mail' required />
+                            </li>
+                            <li>
+                                <input placeholder='Subject' type='text' name='subject' required />
+                            </li>
+                            <li>
+                                <textarea placeholder='Message' name='message' required></textarea>
+                            </li>
+                            <li>
+                                <input type='submit' className='flat-button' value='SEND' />
+                            </li>
+                        </ul>
+                    </form>
+                </div>
             </div>
         </div>
         <Loader type='pacman' />
