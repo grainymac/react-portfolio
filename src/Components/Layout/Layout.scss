@@ -52,30 +52,30 @@
         margin-bottom: 40px;
         left: -10px;
 
-        &:before {
-            content: '<h1>';
-            font-family: 'La Belle Aurore', cursive;
-            color: #ffd700;
-            font-size: 18px;
-            position: absolute;
-            margin-top: -10px;
-            left: -10px;
-            opacity: 0.6;
-            line-height: 18px;
-        }
+        // &:before {
+        //     content: '<h1>';
+        //     font-family: 'La Belle Aurore', cursive;
+        //     color: #ffd700;
+        //     font-size: 18px;
+        //     position: absolute;
+        //     margin-top: -10px;
+        //     left: -10px;
+        //     opacity: 0.6;
+        //     line-height: 18px;
+        // }
 
-        &:after {
-            content: '<h1/>';
-            font-family: 'La Belle Aurore', cursive;
-            color: #ffd700;
-            font-size: 18px;
-            line-height: 18px;
-            position: absolute;
-            left: -30px;
-            bottom: -20px;
-            margin-left: 20px;
-            opacity: 0.6;
-        }
+        // &:after {
+        //     content: '<h1/>';
+        //     font-family: 'La Belle Aurore', cursive;
+        //     color: #ffd700;
+        //     font-size: 18px;
+        //     line-height: 18px;
+        //     position: absolute;
+        //     left: -30px;
+        //     bottom: -20px;
+        //     margin-left: 20px;
+        //     opacity: 0.6;
+        // }
     }
 
     p {
@@ -102,12 +102,12 @@
     .text-zone {
         position: absolute;
         left: 10%;
-        top: 50%;
+        top: 43%;
         transform: translateY(-50%);
         width: 35%;
         vertical-align: middle;
         display: table-cell;
-        max-height: 90%;
+        max-height: 95%;
     }
 
     .text-animate-hover {
@@ -137,6 +137,7 @@
                 display: block;
                 padding: 20px;
                 box-sizing: border-box;
+                overflow: scroll;
             }
         }
 
