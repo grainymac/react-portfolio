@@ -57,6 +57,14 @@ const Contact = () => {
                     </form>
                 </div>
             </div>
+            <div className='info-map'>
+                Ian McIntosh,
+                <br />
+                Fort Worth, Texas
+                <br />
+                <span>ian.c.mcintosh87@gmail.com</span>
+            </div>
+            <div className='map-wrap'></div>
         </div>
         <Loader type='pacman' />
     </>
