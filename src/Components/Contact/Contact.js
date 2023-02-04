@@ -6,7 +6,7 @@ import emailjs from '@emailjs/browser'
 
 const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
-    const refForm = useRef()
+    const form = useRef()
 
     useEffect(() => {
         setLetterClass('text-animate-hover')
@@ -15,20 +15,14 @@ const Contact = () => {
     const sendEmail = (event) => {
         event.preventDefault()
 
-        emailjs
-            .sendForm(
-                'gmail',
-                'template_j34068y',
-                refForm.current,
-                'service_smkz3xo'
-            )
+        emailjs.sendForm('service_smkz3xo','template_j34068y', form.current, '5zEiwTNMl_2Xx4cpQ')
             .then(() => {
-                    getAllByPlaceholderText('Message successfully sent!')
-                    window.location.reload(false)
-                },() => {
-                    alert('Failed to send the message, please try again!')
-                }
-            )
+                alert('Message successfully sent!')
+                window.location.reload(false)
+            },() => {
+                alert('Failed to send the message, please try again!')
+            }
+        )
     }
 
   return (
@@ -42,7 +36,7 @@ const Contact = () => {
                     I am interested in freelance opportunities, especially creative and ambitious projects. If you have any other requests or questions, please do not hesitate to get in touch with me via the form below.
                 </p>
                 <div className='contact-form'>
-                    <form ref={refForm} onSubmit={sendEmail}>
+                    <form ref={form} onSubmit={sendEmail}>
                         <ul>
                             <li className='half'>
                                 <input type='text' name='name' placeholder='Name' required />
