@@ -1,5 +1,5 @@
 .stage-cube-cont {
-    width: 65%;
+    width: 35%;
     height: 100%;
     top: 0;
     padding-top: 18%;
@@ -19,9 +19,9 @@
     margin-left: calc(50% - 100px);
 
     div {
-        position:absolute;
-        width: 200px;
-        height: 200px;
+        position: absolute;
+        width: 150px;
+        height: 150px;
         // border: 1px solid #ccc;
         background: rgba(6, 5, 5, 0.4);
         font-size: 180px;
