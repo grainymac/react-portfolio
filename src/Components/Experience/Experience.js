@@ -22,7 +22,7 @@ const Experience = () => {
         </h1>
         <div className='experience-container'>
           <div className='experience-frontend'>
-            <h3>Front-End Development</h3>
+            <h2>Front-End Development</h2>
             <article className='experience-details'>
               <FontAwesomeIcon icon={faCircleCheck} color='#4d4d4e' />
               <h4>HTML</h4>
