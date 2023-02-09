@@ -3,11 +3,39 @@
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
 
-    div {
+    .experience-frontend {
         background: #0000001d;
         padding: 2.4rem 5rem;
         border-radius: 2rem;
         border: 1px solid transparent;
-        color: #fff
+        color: #fff;
+        transition: ease-in;
+
+        &:hover {
+            background: transparent;
+            border-color: #fdd700;
+            cursor: default;
+        }
+
+        h2 {
+            text-align: center;
+            margin: 2rem;
+            color: #fdd700;
+        }
+    }
+}
+
+.experience-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+
+.experience-details {
+    display: flex;
+    gap: 1rem;
+
+    i {
+        margin-top: 6px;
     }
 }
