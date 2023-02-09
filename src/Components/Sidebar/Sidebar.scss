@@ -89,6 +89,12 @@
             }
         }
 
+        a.experience-link {
+            &:after {
+                content: 'XP';
+            }
+        }
+
         a.contact-link {
             &:after {
                 content: 'CONTACT';
@@ -125,4 +131,12 @@
             }
         }
     }
+}
+
+.xp-icon {
+    color: #585859;
+    border-image-width: auto;
+    border-image: fill;
+    height: 30px;
+    width: 30px;
 }
