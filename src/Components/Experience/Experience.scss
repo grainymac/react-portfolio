@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    width: 100vw;
+    width: 160vw;
 
     .experience-frontend {
         background: #0000001d;
@@ -28,8 +28,9 @@
 
 .experience-content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(5, 2fr);
     row-gap: 2rem;
+    column-gap: 2rem;
 }
 
 .experience-details {

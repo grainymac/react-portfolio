@@ -39,6 +39,13 @@ const Experience = () => {
               <article className='experience-details'>
                 <FontAwesomeIcon className='experience-icon' icon={faCircleCheck} color='#fdd700' />
                 <div>
+                  <h4>SCSS</h4>
+                  <small className='text-light'>Intermediate</small>
+                </div>
+              </article>
+              <article className='experience-details'>
+                <FontAwesomeIcon className='experience-icon' icon={faCircleCheck} color='#fdd700' />
+                <div>
                   <h4>JavaScript</h4>
                   <small className='text-light'>Intermediate</small>
                 </div>
@@ -67,8 +74,43 @@ const Experience = () => {
               <article className='experience-details'>
                 <FontAwesomeIcon className='experience-icon' icon={faCircleCheck} color='#fdd700' />
                 <div>
-                  <h4>Express.js</h4>
+                  <h4>Styled Components</h4>
                   <small className='text-light'>Beginner</small>
+                </div>
+              </article>
+              <article className='experience-details'>
+                <FontAwesomeIcon className='experience-icon' icon={faCircleCheck} color='#fdd700' />
+                <div>
+                  <h4>Material UI</h4>
+                  <small className='text-light'>Intermediate</small>
+                </div>
+              </article>
+              <article className='experience-details'>
+                <FontAwesomeIcon className='experience-icon' icon={faCircleCheck} color='#fdd700' />
+                <div>
+                  <h4>GSAP</h4>
+                  <small className='text-light'>Intermediate</small>
+                </div>
+              </article>
+              <article className='experience-details'>
+                <FontAwesomeIcon className='experience-icon' icon={faCircleCheck} color='#fdd700' />
+                <div>
+                  <h4>GraphQL</h4>
+                  <small className='text-light'>Beginner</small>
+                </div>
+              </article>
+              <article className='experience-details'>
+                <FontAwesomeIcon className='experience-icon' icon={faCircleCheck} color='#fdd700' />
+                <div>
+                  <h4>Git</h4>
+                  <small className='text-light'>Intermediate</small>
+                </div>
+              </article>
+              <article className='experience-details'>
+                <FontAwesomeIcon className='experience-icon' icon={faCircleCheck} color='#fdd700' />
+                <div>
+                  <h4>Markdown</h4>
+                  <small className='text-light'>Intermediate</small>
                 </div>
               </article>
             </section>
