@@ -29,31 +29,6 @@ const About = () => {
                         My creative career starts at a very young age for me. Right now in my life, I do a lot of music production work for myself and other artists and I do photography. I've been doing these things on a professional level along side my main career. I went to school for graphic design to also supplement my creative projects and give me a chance to build a portfolio with different art mediums.
                     </p>
                     <h2>
-                        Languages & Frameworks:
-                    </h2>
-                    <div className='skills-area'>
-                        <img src='https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white' alt='html' />
-                        <img src='https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white' alt='css' />
-                        <img src='https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white' alt='sass' />
-                        <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' alt='javascript' />
-                        <img src='https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB' alt='react' />
-                        <img src='https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white' alt='react router' />
-                        <img src='https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white' alt='styled-components' />
-                        <img src='https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white' alt='material ui' />
-                        <img src='https://img.shields.io/badge/GSAP-88CE02.svg?style=for-the-badge&logo=greensock&logoColor=black' alt='gsap' />
-                        <img src='https://img.shields.io/badge/graphql-000000?style=for-the-badge&logo=graphql&logoColor=purple' alt='graph ql' />
-                        <img src='https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white' alt='git' />
-                        <img src='https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white' alt='markdown' />
-                    </div>
-                    <h2>
-                        Testing:
-                    </h2>
-                    <div className='skills-area'>
-                        <img src='https://img.shields.io/badge/cypress-%1004E9F.svg?style=for-the-badge&logo=cypress&logoColor=%23F7DF1E' alt='cypress' />
-                        <img src='https://img.shields.io/badge/mocha.js-323330?style=for-the-badge&logo=mocha&logoColor=Brown' alt='mocha' />
-                        <img src='https://img.shields.io/badge/chai.js-323330?style=for-the-badge&logo=chai&logoColor=red' alt='chai' />
-                    </div>
-                    <h2>
                         Extras:
                     </h2>
                     <div className='skills-area'>
