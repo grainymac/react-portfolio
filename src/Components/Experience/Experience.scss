@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+    width: 100vw;
 
     .experience-frontend {
         background: #0000001d;
@@ -35,7 +36,17 @@
     display: flex;
     gap: 1rem;
 
-    i {
-        margin-top: 6px;
-    }
+}
+
+.experience-icon {
+    margin-top: 15px;
+}
+
+h4 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.text-light {
+    margin: 0;
 }

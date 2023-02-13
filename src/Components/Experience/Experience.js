@@ -23,49 +23,49 @@ const Experience = () => {
             <h2>Front-End Development</h2>
             <section className='experience-content'>
               <article className='experience-details'>
-                <FontAwesomeIcon icon={faCircleCheck} color='#4d4d4e' />
+                <FontAwesomeIcon className='experience-icon' icon={faCircleCheck} color='#fdd700' />
                 <div>
                   <h4>HTML</h4>
                   <small className='text-light'>Experienced</small>
                 </div>
               </article>
               <article className='experience-details'>
-                <FontAwesomeIcon icon={faCircleCheck} color='#4d4d4e' />
+                <FontAwesomeIcon className='experience-icon' icon={faCircleCheck} color='#fdd700' />
                 <div>
                   <h4>CSS</h4>
                   <small className='text-light'>Experienced</small>
                 </div>
               </article>
               <article className='experience-details'>
-                <FontAwesomeIcon icon={faCircleCheck} color='#4d4d4e' />
+                <FontAwesomeIcon className='experience-icon' icon={faCircleCheck} color='#fdd700' />
                 <div>
                   <h4>JavaScript</h4>
                   <small className='text-light'>Intermediate</small>
                 </div>
               </article>
               <article className='experience-details'>
-                <FontAwesomeIcon icon={faCircleCheck} color='#4d4d4e' />
+                <FontAwesomeIcon className='experience-icon' icon={faCircleCheck} color='#fdd700' />
                 <div>
                   <h4>React.js</h4>
                   <small className='text-light'>Experienced</small>
                 </div>
               </article>
               <article className='experience-details'>
-                <FontAwesomeIcon icon={faCircleCheck} color='#4d4d4e' />
+                <FontAwesomeIcon className='experience-icon' icon={faCircleCheck} color='#fdd700' />
                 <div>
                   <h4>React Router</h4>
                   <small className='text-light'>Intermediate</small>
                 </div>
               </article>
               <article className='experience-details'>
-                <FontAwesomeIcon icon={faCircleCheck} color='#4d4d4e' />
+                <FontAwesomeIcon className='experience-icon' icon={faCircleCheck} color='#fdd700' />
                 <div>
                   <h4>React Native</h4>
                   <small className='text-light'>Beginner</small>
                 </div>
               </article>
               <article className='experience-details'>
-                <FontAwesomeIcon icon={faCircleCheck} color='#4d4d4e' />
+                <FontAwesomeIcon className='experience-icon' icon={faCircleCheck} color='#fdd700' />
                 <div>
                   <h4>Express.js</h4>
                   <small className='text-light'>Beginner</small>
