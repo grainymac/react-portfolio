@@ -44,7 +44,7 @@ const About = () => {
                         <img src='https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white' alt='figma' />
                     </div>
                 </div>
-                <div className='stage-cube-cont'>
+                {/* <div className='stage-cube-cont'>
                     <div className='cubespinner'>
                         <div className='face1'>
                             <FontAwesomeIcon icon={faJsSquare} color='#efd81d'/>
@@ -65,7 +65,7 @@ const About = () => {
                             <img alt='material ui' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" />
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
             <Loader type='pacman' />
         </>
