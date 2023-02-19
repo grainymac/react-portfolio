@@ -41,6 +41,7 @@
 .container.contact-page,
 .container.about-page,
 .container.portfolio-page,
+.container.work-page,
 .experience-page {
 
     h1 {
@@ -130,6 +131,7 @@
 
         &.contact-page,
         &.about-page,
+        &.work-page,
         &.portfolio-page {
             .text-zone {
                 position: initial;
