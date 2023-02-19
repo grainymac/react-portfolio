@@ -7,8 +7,10 @@ import rancid from './assets/rancid.png'
 const WorkCard = () => {
     return (
         <div className='work-card-container'>
-            <img src={theBored} alt='the bored logo' />
-            <h2>the Bored</h2>
+            <div>
+                <img src={theBored} alt='the bored logo' />
+                <h2>the Bored</h2>
+            </div>
         </div>
     )
 }

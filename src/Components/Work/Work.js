@@ -19,9 +19,7 @@ const Work = () => {
         <AnimatedLetters letterClass={letterClass} strArray={['M', 'y', ' ', 'W', 'o', 'r', 'k']} idx={15} />
       </h1>
         <div className='work-container'>
-          <div className='work-item'>
             <WorkCard />
-          </div>
         </div>
       </div>
     </div>
