@@ -1,20 +1,27 @@
 .work-card-container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 400px;
-    margin: 0 25px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 30px;
+    margin: 0;
 
     div {
-        border: 2px #fdd700 solid;
+        // border: 2px #fdd700 solid;
         border-radius: 2rem;
         text-align: center;
+        box-shadow: 5px 8px 8px 8px #2d2d2d79;
+
+        &:hover {
+            cursor: pointer;
+            box-shadow: 5px 8px 3px 8px #000508;
+
+        }
     }
 
     img {
-        width: 400px;
-        height: 225px;
+        width: 200px;
+        height: 100px;
         margin: 15px 20px;
         border: 2px transparent solid;
         border-radius: 2rem;
@@ -22,9 +29,10 @@
 
     h2 {
         color: #fdd700;
-        font-size: 28px;
+        font-size: 23px;
         align-self: normal;
         justify-self: center;
         margin: 0;
+        margin-bottom: 10px;
     }
 }
