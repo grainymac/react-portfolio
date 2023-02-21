@@ -3,34 +3,28 @@ import './WorkCard.scss'
 import theBored from './assets/theBored.png'
 import dokes from './assets/dokes.png'
 import rancid from './assets/rancid.png'
+import discoverIt from './assets/discoverIt.png'
 
 const WorkCard = () => {
     return (
         <div className='work-card-container'>
             <div>
-                <a href=''><img src={rancid} alt='rancid logo' /></a>
+                <a href='https://discoverit2208.vercel.app/'><img src={discoverIt} alt='discoverIt logo' /></a>
                 <h2>DiscoverIt</h2>
             </div>
             <div>
-                <a href=''><img src={theBored} alt='the bored logo' /></a>
+                <a href='https://the-bored.vercel.app/'><img src={theBored} alt='the bored logo' /></a>
                 <h2>the Bored</h2>
             </div>
             <div>
-                <a href=''><img src={dokes} alt='dokes logo' /></a>
+                <a href='https://dokes.surge.sh/'><img src={dokes} alt='dokes logo' /></a>
                 <h2>Dokes</h2>
             </div>
             <div>
-                <a href=''><img src={rancid} alt='rancid logo' /></a>
+                <a href='https://rancid-tomatillos-wheat.vercel.app/'><img src={rancid} alt='rancid logo' /></a>
                 <h2>Rancid Tomatillos</h2>
             </div>
-            <div>
-                <a href=''><img src={rancid} alt='rancid logo' /></a>
-                <h2>Hotel OverLook</h2>
-            </div>
-            <div>
-                <a href=''><img src={rancid} alt='rancid logo' /></a>
-                <h2>What's Cookin'</h2>
-            </div>
+
 
         </div>
     )
