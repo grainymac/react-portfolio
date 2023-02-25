@@ -20,13 +20,13 @@ const About = () => {
                         <AnimatedLetters letterClass={letterClass} strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']} idx={15} />
                     </h1>
                     <p> 
-                        I am a front-end developer, specializing in React, JavaScript, HTML, and CSS, that is interested in working with creative teams that inspire and empower people to be creative, productive, and successful in their lives. Being a huge advocate for creative expression has always been a very important part of my life since I was young. It has allowed me to express myself in creative ways in web development, designing, photography, and music production and help others do the same. 
+                        &nbsp;&nbsp;&nbsp;I'm a front-end developer specializing in React, JavaScript, HTML, and CSS who wants to inspire and empower people to be creative, productive, and successful. My passion for creative expression has always been very important to me since I was a kid. My work has allowed me to express myself in creative ways in web development, design, photography, and music production. 
                     </p>
                     <p>
-                        From my time in the military, it has taught how to work with many different kind of people. Because of the military's robust training regimen on professional development, leadership skills, and team work exercises, it has allowed me to be really effective in group settings and getting important tasks done. This was important with my career in Histology. I was dealing with varying amounts of work at any given time. Most of the time I was working with other professionals and some time I was working alone which gave me opportunities to develop my time management skills.
+                        &nbsp;&nbsp;&nbsp;My time in the military taught me how to work with a wide variety of people. It's because of the military's extensive training in professional development, leadership skills, and teamwork exercises that I'm able to do amazing things in groups and accomplish great things. I used this in my career in histology. At any given time, I had varying amounts of work. Sometimes I worked with other professionals, and sometimes I worked alone, which helped me develop my time management skills.
                     </p>
                     <p>
-                        My creative career starts at a very young age for me. Right now in my life, I do a lot of music production work for myself and other artists and I do photography. I've been doing these things on a professional level along side my main career. I went to school for graphic design to also supplement my creative projects and give me a chance to build a portfolio with different art mediums.
+                        &nbsp;&nbsp;&nbsp;Right now in my life, I do a lot of music production work for myself and other artists and I do photography. I've been doing these things on a professional level alongside my main career. I went to school for graphic design to also supplement my creative projects and give me a chance to build a portfolio with different art mediums.
                     </p>
                     <h2>
                         Extras:
