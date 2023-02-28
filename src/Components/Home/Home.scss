@@ -95,12 +95,20 @@
         display: none;
     }
 
+    .home-page h1 {
+        font-size: 39px;
+    }
+
     .home-page .text-zone {
         position: initial;
         width: 100%;
         transform: none;
         padding: 10px;
         box-sizing: border-box;
+        text-align: center;
+        word-wrap: break-word;
+        padding: 0 20px;
+        margin: 15px;
     }
 
     .home-page .flat-button {
@@ -143,6 +151,50 @@
         .photo {
             height: 200px;
             border-radius: 50%;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
+    .home-page {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-zone {
+        position: relative;
+        left: 0;
+        top: 0;
+        transform: none;
+        width: 100%;
+        max-height: none;
+    }
+
+    h1 {
+        font-size: 8vw; /* relative unit */
+        line-height: 1.2;
+    }
+
+    h2 {
+        font-size: 4vw; /* relative unit */
+    }
+
+    .flat-button {
+        font-size: 6vw; /* relative unit */
+        padding: 3vw 6vw; /* relative unit */
+        margin-top: 10vw; /* relative unit */
+        float: none;
+    }
+
+    .logo-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .photo {
+            height: 300px; /* relative unit */
         }
     }
 }
