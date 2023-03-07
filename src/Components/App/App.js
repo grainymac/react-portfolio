@@ -5,7 +5,7 @@ import Home from '../Home/Home'
 import About from '../About/About'
 import Work from '../Work/Work'
 import Contact from '../Contact/Contact'
-import Experience from '../Experience/Experience';
+import Skills from '../Skills/Skills';
 import Blog from '../Blog/Blog'
 import { useQuery, gql } from '@apollo/client'
 // import { GraphQLClient, gql } from 'graphql-request'
@@ -60,7 +60,7 @@ const App = () => {
         <Route path='/about' element={<About />} />
         <Route path='/work' element={<Work />} />
         <Route path='/contact' element={<Contact />} />
-        <Route path='/experience' element={<Experience />} />
+        <Route path='/skills' element={<Skills />} />
         <Route path='/blog' element={<Blog />} />
       </Route>
     </Routes>

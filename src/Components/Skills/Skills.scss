@@ -1,11 +1,10 @@
 .experience-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    width: 160vw;
 
     .experience-frontend {
-        background: #0000001d;
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+        background: #1818187a;
         padding: 2.4rem 5rem;
         border-radius: 2rem;
         border: 1px solid transparent;
@@ -50,4 +49,19 @@ h4 {
 
 .text-light {
     margin: 0;
+}
+
+.skill-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+    padding: 2%;
+    border-radius: 100%;
+    background-color: #fff;
+
+    .icon {
+        height: 30px;
+    }
 }
