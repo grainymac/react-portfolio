@@ -24,6 +24,7 @@ const Skills = () => {
         <div className='experience-container'>
           <h2>Front-End Development</h2>
           <div className='experience-frontend'>
+
             <div className='skill-circle'>
               <img className='icon html' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" alt='html icon'/>
             </div>
@@ -99,100 +100,6 @@ const Skills = () => {
             <div className='skill-circle'>
               <img className='icon rd' src={rd} alt='responsive design icon'/>
             </div>
-            
-            {/* <section className='experience-content'>
-              <article className='experience-details'>
-                <FontAwesomeIcon className='experience-icon' icon={faCircleCheck} color='#fdd700' />
-                <div>
-                  <h4>HTML</h4>
-                  <small className='text-light'>Experienced</small>
-                </div>
-              </article>
-              <article className='experience-details'>
-                <FontAwesomeIcon className='experience-icon' icon={faCircleCheck} color='#fdd700' />
-                <div>
-                  <h4>CSS</h4>
-                  <small className='text-light'>Experienced</small>
-                </div>
-              </article>
-              <article className='experience-details'>
-                <FontAwesomeIcon className='experience-icon' icon={faCircleCheck} color='#fdd700' />
-                <div>
-                  <h4>SCSS</h4>
-                  <small className='text-light'>Intermediate</small>
-                </div>
-              </article>
-              <article className='experience-details'>
-                <FontAwesomeIcon className='experience-icon' icon={faCircleCheck} color='#fdd700' />
-                <div>
-                  <h4>JavaScript</h4>
-                  <small className='text-light'>Intermediate</small>
-                </div>
-              </article>
-              <article className='experience-details'>
-                <FontAwesomeIcon className='experience-icon' icon={faCircleCheck} color='#fdd700' />
-                <div>
-                  <h4>React.js</h4>
-                  <small className='text-light'>Experienced</small>
-                </div>
-              </article>
-              <article className='experience-details'>
-                <FontAwesomeIcon className='experience-icon' icon={faCircleCheck} color='#fdd700' />
-                <div>
-                  <h4>React Router</h4>
-                  <small className='text-light'>Intermediate</small>
-                </div>
-              </article>
-              <article className='experience-details'>
-                <FontAwesomeIcon className='experience-icon' icon={faCircleCheck} color='#fdd700' />
-                <div>
-                  <h4>React Native</h4>
-                  <small className='text-light'>Beginner</small>
-                </div>
-              </article>
-              <article className='experience-details'>
-                <FontAwesomeIcon className='experience-icon' icon={faCircleCheck} color='#fdd700' />
-                <div>
-                  <h4>Styled Components</h4>
-                  <small className='text-light'>Beginner</small>
-                </div>
-              </article>
-              <article className='experience-details'>
-                <FontAwesomeIcon className='experience-icon' icon={faCircleCheck} color='#fdd700' />
-                <div>
-                  <h4>Material UI</h4>
-                  <small className='text-light'>Intermediate</small>
-                </div>
-              </article>
-              <article className='experience-details'>
-                <FontAwesomeIcon className='experience-icon' icon={faCircleCheck} color='#fdd700' />
-                <div>
-                  <h4>GSAP</h4>
-                  <small className='text-light'>Intermediate</small>
-                </div>
-              </article>
-              <article className='experience-details'>
-                <FontAwesomeIcon className='experience-icon' icon={faCircleCheck} color='#fdd700' />
-                <div>
-                  <h4>GraphQL</h4>
-                  <small className='text-light'>Beginner</small>
-                </div>
-              </article>
-              <article className='experience-details'>
-                <FontAwesomeIcon className='experience-icon' icon={faCircleCheck} color='#fdd700' />
-                <div>
-                  <h4>Git</h4>
-                  <small className='text-light'>Intermediate</small>
-                </div>
-              </article>
-              <article className='experience-details'>
-                <FontAwesomeIcon className='experience-icon' icon={faCircleCheck} color='#fdd700' />
-                <div>
-                  <h4>Markdown</h4>
-                  <small className='text-light'>Intermediate</small>
-                </div>
-              </article>
-            </section> */}
           </div>
         </div>
       </div>

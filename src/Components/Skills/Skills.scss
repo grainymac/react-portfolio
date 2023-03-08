@@ -2,19 +2,17 @@
 
     .experience-frontend {
         display: flex;
-        gap: 15px;
+        gap: 20px;
         flex-wrap: wrap;
         background: #1818187a;
         padding: 2.4rem 5rem;
         border-radius: 2rem;
-        border: 1px solid transparent;
+        border: 1px solid #fdd700;
         color: #fff;
         transition: ease-in;
 
         &:hover {
             background: transparent;
-            border-color: #fdd700;
-            cursor: default;
         }
 
         h2 {
@@ -23,19 +21,6 @@
             color: #fdd700;
         }
     }
-}
-
-.experience-content {
-    display: grid;
-    grid-template-columns: repeat(5, 2fr);
-    row-gap: 2rem;
-    column-gap: 2rem;
-}
-
-.experience-details {
-    display: flex;
-    gap: 1rem;
-
 }
 
 .experience-icon {
@@ -57,11 +42,44 @@ h4 {
     align-items: center;
     height: fit-content;
     width: fit-content;
-    padding: 2%;
+    padding: 15px;
     border-radius: 100%;
     background-color: #fff;
 
     .icon {
-        height: 30px;
+        height: 3.5rem;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .experience-container .experience-frontend {
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        padding: 2.4rem 1rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+}
+
+/* Media queries for desktop devices */
+@media only screen and (min-width: 768px) {
+    .experience-container .experience-frontend {
+        padding: 2.4rem 5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+    }
+}
+
