@@ -21,6 +21,11 @@
             color: #fdd700;
         }
     }
+
+    h2 {
+        color: #878787;
+        font-size: 25px;
+    }
 }
 
 .skill-circle {
@@ -28,21 +33,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: fit-content;
-    width: fit-content;
-    padding: 15px;
+    height: 5rem;
+    width: 5rem;
+    padding: 20px;
     border-radius: 100%;
     background-color: #fff;
 
     .icon {
-        height: 3.5rem;
+        height: 4rem;
         object-fit: contain;
         transition: opacity 0.3s ease-in-out;
     }
 
     .display-text {
         position: absolute;
-        top: 25%;
+        font-size: 15px;
+        top: 35%;
         left: 50%;
         transform: translate(-50%, -50%);
         opacity: 0;
@@ -83,14 +89,14 @@ and (-webkit-min-device-pixel-ratio: 3) {
         .experience-frontend {
             width: 90%;
 
-            .skill-circle {
-                height: 20px;
-                width: 20px;
+            // .skill-circle {
+            //     height: 20px;
+            //     width: 20px;
 
-                .icon {
-                    height: 100%;
-                }
-            }
+            //     .icon {
+            //         height: 100%;
+            //     }
+            // }
         }
     }
 }
