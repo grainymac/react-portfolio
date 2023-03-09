@@ -26,28 +26,36 @@ const Skills = () => {
           <div className='experience-frontend'>
 
             <div className='skill-circle'>
-              <img className='icon html' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" alt='html icon'/>
+              <img className='icon html' title='html' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" alt='html icon'/>
+              <p className='display-text'>HTML</p>
             </div>
             <div className='skill-circle'>
-              <img className='icon css' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" alt='css icon'/>
+              <img className='icon css' title='css' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" alt='css icon'/>
+              <p className='display-text'>CSS</p>
             </div>
             <div className='skill-circle'>
               <img className='icon sass' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt='sass icon'/>
-            </div>
-            <div className='skill-circle'>
-              <img className='icon react' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt='react icon'/>
-            </div>
-            <div className='skill-circle'>
-              <img className='icon git' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" alt='git icon'/>
-            </div>
-            <div className='skill-circle'>
-              <img className='icon github' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt='github icon'/>
-            </div>
-            <div className='skill-circle'>
-              <img className='icon graphql' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" alt='graphql icon'/>
+              <p className='display-text'>SCSS</p>
             </div>
             <div className='skill-circle'>
               <img className='icon js' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" alt='javascript icon'/>
+              <p className='display-text'>JavaScript</p>
+            </div>
+            <div className='skill-circle'>
+              <img className='icon react' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt='react icon'/>
+              <p className='display-text'>React</p>
+            </div>
+            <div className='skill-circle'>
+              <img className='icon git' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" alt='git icon'/>
+              <p className='display-text'>Git</p>
+            </div>
+            <div className='skill-circle'>
+              <img className='icon github' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt='github icon'/>
+              <p className='display-text'>GitHub</p>
+            </div>
+            <div className='skill-circle'>
+              <img className='icon graphql' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" alt='graphql icon'/>
+              <p className='display-text'>GraphQL</p>
             </div>
             <div className='skill-circle'>
               <img className='icon md' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg" alt='markdown icon'/>
