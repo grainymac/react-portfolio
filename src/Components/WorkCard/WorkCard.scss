@@ -3,17 +3,22 @@
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    gap: 30px;
+    gap: 50px;
     margin: 0;
 
+    @media screen and (max-width: 400px) {
+        width: 70%;
+    }
+
     div {
-        // border: 2px #fdd700 solid;
+        border: 2px #fdd700 solid;
         border-radius: 2rem;
         text-align: center;
-        box-shadow: 5px 8px 8px 8px #2d2d2d79;
+        box-shadow: 5px 8px 8px 8px #dbdada5b;
 
         &:hover {
             cursor: pointer;
+            border: 2px white solid;
             box-shadow: 5px 8px 3px 8px #000508;
 
         }
