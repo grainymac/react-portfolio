@@ -73,6 +73,12 @@
             letter-spacing: 1px;
             margin-top: 10px;
         }
+
+        @media screen and (max-width: 400px) {
+            width: 70%;
+            left: 15%;
+
+        }
     }
 
     .flat-button {
@@ -153,6 +159,6 @@
     @media screen and (max-width: 400px) {
         width: 70%;
         left: 15%;
-        margin-top: 180px;
+        margin-top: 240px;
     }
 }

@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters'
 import Loader from 'react-loaders'
 import Me from '../../assets/images/me2.jpg'
+import resume from '../../assets/ianMcIntoshResume.pdf'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -32,6 +33,7 @@ const Home = () => {
           </h1>
           <h2>Front-end Developer | Photographer | Musician</h2>
           <Link to='/contact' className='flat-button'>CONTACT ME</Link>
+          <a href={resume} className='flat-button'>MY RESUME</a>
         </div>
         <div className='logo-container'>
           <img src={Me} alt='ian mcintosh' className='photo' />

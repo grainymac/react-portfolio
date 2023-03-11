@@ -14,7 +14,7 @@ const Work = () => {
   return (
     <>
     <div className='container work-page'>
-      <div className='text-zone'>
+      <div className='text-zone work-zone'>
       <h1>
         <AnimatedLetters letterClass={letterClass} strArray={['M', 'y', ' ', 'W', 'o', 'r', 'k']} idx={15} />
       </h1>

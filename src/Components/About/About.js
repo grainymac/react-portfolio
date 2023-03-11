@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHtml5, faCss3, faGithubAlt, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons'
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters'
 import './About.scss'
 import Loader from 'react-loaders'
@@ -15,7 +13,7 @@ const About = () => {
     return (
         <>
             <div className='container about-page'>
-                <div className='text-zone'>
+                <div className='text-zone about-zone'>
                     <h1>
                         <AnimatedLetters letterClass={letterClass} strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']} idx={15} />
                     </h1>
