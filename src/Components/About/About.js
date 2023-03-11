@@ -44,28 +44,6 @@ const About = () => {
                         <img src='https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white' alt='figma' />
                     </div>
                 </div>
-                {/* <div className='stage-cube-cont'>
-                    <div className='cubespinner'>
-                        <div className='face1'>
-                            <FontAwesomeIcon icon={faJsSquare} color='#efd81d'/>
-                        </div>
-                        <div className='face2'>
-                            <FontAwesomeIcon icon={faHtml5} color='#f06529'/>
-                        </div>
-                        <div className='face3'>
-                            <FontAwesomeIcon icon={faCss3} color='#28a4d9'/>
-                        </div>
-                        <div className='face4'>
-                            <FontAwesomeIcon icon={faReact} color='#5ed4f4'/>
-                        </div>
-                        <div className='face5'>
-                            <FontAwesomeIcon icon={faGithubAlt} color='#ec4d28'/>
-                        </div>
-                        <div className='face6'>
-                            <img alt='material ui' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" />
-                        </div>
-                    </div>
-                </div> */}
             </div>
             <Loader type='pacman' />
         </>
