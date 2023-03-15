@@ -20,14 +20,16 @@
         }
 
         @media screen and (max-width: 500px) {
-            width: 70%;
-            left: 15%;
+            width: 40%;
+            left: 20%;
             margin-top: 160px;
+            contain: content;
+            overflow-y: hidden;
         }
 
         @media screen and (max-width: 850px) {
             position: absolute;
-            left: 13%;
+            left: 10%;
             top: 30px;
             width: 90%;
         }
