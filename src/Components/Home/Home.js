@@ -32,14 +32,16 @@ const Home = () => {
           <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={22}/>
           </h1>
           <h2>Front-end Developer | Photographer | Musician</h2>
-          <Link to='/contact' className='flat-button'>CONTACT ME</Link>
-          <a href={resume} className='flat-button'>MY RESUME</a>
+          <div className='button-container'>
+            <Link to='/contact' className='flat-button'>CONTACT ME</Link>
+            <a href={resume} className='flat-button'>MY RESUME</a>
+          </div>
         </div>
         <div className='logo-container'>
           <img src={Me} alt='ian mcintosh' className='photo' />
         </div>
       </div>
-      <Loader type='pacman' />
+      <Loader type='ball-scale-ripple-multiple' />
     </>
   )
 }

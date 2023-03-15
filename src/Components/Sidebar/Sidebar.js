@@ -5,6 +5,17 @@ import LogoS from '../../assets/images/logo-s2.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faEnvelope, faUser, faKeyboard, faGamepad, faBlog } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import about from '../../assets/images/about.png'
+import contact from '../../assets/images/contact.png'
+import github from '../../assets/images/github.png'
+import home from '../../assets/images/home.png'
+import linkedin from '../../assets/images/linkedin.png'
+import twitter from '../../assets/images/twitter.png'
+import work from '../../assets/images/work.png'
+
+
+
+
 
 const Sidebar = () => {
     return (

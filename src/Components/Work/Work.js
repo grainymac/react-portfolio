@@ -23,7 +23,7 @@ const Work = () => {
         </div>
       </div>
     </div>
-    <Loader type='pacman' />
+    <Loader type='ball-scale-ripple-multiple' />
     </>
   )
 }

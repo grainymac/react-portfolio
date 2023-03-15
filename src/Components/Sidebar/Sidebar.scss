@@ -1,5 +1,5 @@
 .nav-bar {
-    background: #181818;
+    background: #272838;
     width: 70px;
     height: 100%;
     position: absolute;
@@ -34,7 +34,7 @@
 
         a {
             font-size: 22px;
-            color: #585859;
+            color: #EB9486;
             display: block;
             line-height: 51px;
             height: 51px;
@@ -46,7 +46,7 @@
             }
 
             &:hover {
-                color: #ffd700;
+                color: #F3DE8A;
 
                 svg {
                     opacity: 0;
@@ -103,7 +103,7 @@
 
         a.active {
             svg {
-                color: #ffd700;
+                color: #F3DE8A;
             }
         }
     }
@@ -126,7 +126,7 @@
                 line-height: 16px;
 
                 &:hover svg {
-                    color: #ffd700;
+                    color: #EB9486;
                 }
             }
         }
@@ -174,90 +174,3 @@ and (-webkit-min-device-pixel-ratio: 3) {
     }
 
 }
-
-
-// @media screen and (max-width: 768px) {
-//     .nav-bar {
-//         position: relative;
-//         width: 100%;
-//         height: 150px;
-//         min-height: 0;
-
-//         .logo {
-//             padding: 20px 0;
-//             text-align: center;
-//         }
-
-//         nav {
-//             margin: 0;
-//             display: flex;
-//             flex-direction: row;
-//             justify-content: space-evenly;
-
-//             a {
-//                 font-size: 16px;
-//                 line-height: normal;
-//                 height: auto;
-//                 position: relative;
-//                 text-align: center;
-
-//                 i {
-//                     display: none;
-//                 }
-
-//                 &:hover {
-//                     color: #ffd700;
-
-//                     svg {
-//                         opacity: 0;
-//                     }
-
-//                     &:after {
-//                         opacity: 1;
-//                     }
-//                 }
-
-//                 &:after {
-//                     content: '';
-//                     font-size: 9px;
-//                     letter-spacing: 2px;
-//                     position: absolute;
-//                     bottom: -12px;
-//                     display: block;
-//                     width: 100%;
-//                     text-align: center;
-//                     opacity: 0;
-//                     transition: all 0.3s ease-out;
-//                 }
-//             }
-
-//             a.active {
-//                 svg {
-//                     color: #ffd700;
-//                 }
-//             }
-//         }
-
-//         ul {
-//             position: absolute;
-//             bottom: auto;
-//             display: flex;
-//             justify-content: center;
-//             top: 0%;
-
-//             li {
-//                 margin: 0 10px;
-
-//                 a {
-//                     padding: 0;
-//                     font-size: 15px;
-//                     line-height: 16px;
-
-//                     &:hover svg {
-//                         color: #ffd700;
-//                     }
-//                 }
-//             }
-//         }
-//     }
-// }
