@@ -5,7 +5,7 @@
         left: 10%;
         top: 50%;
         transform: translateY(-50%);
-        width: 40%;
+        width: 39%;
         max-height: 90%;
         z-index: 1;
 
@@ -44,19 +44,24 @@
         font-weight: 400;
 
         @media screen and (max-width: 500px) {
-            width: 80%;
+            width: 90%;
             left: 0;
-
+            font-size: 38px;
         }
 
         img {
-            margin-left: 20px;
-            margin-right: 5px;
+            margin-left: 10px;
+            margin-right: 2px;
             opacity: 0;
             width: auto;
-            height: 80px;
-            animation: rotateIn 1s linear both;
+            height: 70px;
+            animation: jackInTheBox 1s linear both;
             animation-delay: 1.4s;
+
+            @media screen and (max-width: 500px) {
+                width: 15%;
+                height: 50px;
+            }
         }
     }
 
@@ -64,7 +69,7 @@
         color: #272838;
         margin-top: 20px;
         font-weight: 400;
-        font-size: 11px;
+        font-size: 13px;
         font-family: sans-serif;
         letter-spacing: 3px;
         animation: fadeIn 1s 1.8s backwards;
@@ -79,7 +84,7 @@
         @media screen and (max-width: 500px) {
             width: 70%;
             left: 15%;
-
+            font-size: 13px;
         }
     }
 
@@ -125,14 +130,15 @@
 .logo-container {
     float: right;
     position: relative;
-    top: 13%;
-    right: 20%;
+    top: 10%;
+    right: 15%;
+    animation: zoomIn 1s;
 
     .photo {
         height: 500px;
         border-radius: 50%;
         z-index: 0;
-        border: 3px #fdd700 solid;
+        border: 3px #F3DE8A double;
     }
 
 
