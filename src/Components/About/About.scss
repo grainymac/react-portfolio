@@ -10,11 +10,20 @@
         @media screen and (max-width: 500px) {
             text-align: center;
         }
+
+        @media screen and (max-width: 900px) {
+            text-align: center;
+        }
     }
 
     p {
         @media screen and (max-width: 500px) {
             margin: 10px 5px;
+        }
+
+        @media screen and (max-width: 900px) {
+            width: 80%;
+            margin-left: 70px;
         }
     }
 }
