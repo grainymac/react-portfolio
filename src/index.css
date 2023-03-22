@@ -14,10 +14,33 @@ body {
   font: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
   color: #F9F8F8;
   background: #7E7F9A;
-  /* overflow: auto; */
+  overflow: auto;
   display: block;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+.parallax-image {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+}
 
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+}
+
+.content span.img-txt {
+  font-family: 'Coolvetica';
+  background-color: #272838;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 1rem;
+  font-size: 2rem;
+  letter-spacing: 10px;;
+}
