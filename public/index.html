@@ -12,32 +12,6 @@
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <title>Ian McIntosh - Web Developer Portfolio</title>
-    <script type="text/javascript">
-      function init() {
-        var btn = document.getElementById("myButton");
-        if (btn.setCapture) {
-          btn.addEventListener("mousedown", mouseDown, false);
-          btn.addEventListener("mouseup", mouseUp, false);
-        } else {
-          document.getElementById("output").textContent
-            = "Sorry, there appears to be no setCapture support on this browser";
-        }
-      }
-  
-      function mouseDown(e) {
-        e.target.setCapture();
-        e.target.addEventListener("mousemove", mouseMoved, false);
-      }
-  
-      function mouseUp(e) {
-        e.target.removeEventListener("mousemove", mouseMoved, false);
-      }
-  
-      function mouseMoved(e) {
-        var output = document.getElementById("output");
-        output.textContent = `Position: ${e.clientX}, ${e.clientY}`;
-      }
-    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
