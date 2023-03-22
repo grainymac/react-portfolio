@@ -1,6 +1,7 @@
 .text-container {
-    padding: 0 20px; /* decrease the padding */
+    padding: 20px 20px; /* decrease the padding */
     height: fit-content;
+    background-color: #272838;
     
     @media only screen and (max-width: 767px) {
       padding: 0 10px; /* further decrease the padding */
