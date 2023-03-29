@@ -1,4 +1,9 @@
 .work-zone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     @media screen and (max-width: 500px) {
         display: flex;
         width: 100%;
@@ -13,14 +18,20 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    width: 90%;
+    margin: 10px 10px;
+    border: 2px white solid;
+    border-radius: 2rem;
 
     @media screen and (max-width: 500px) {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 0;
+    }
 
+    img {
+        height: 200px;
     }
 }
 
