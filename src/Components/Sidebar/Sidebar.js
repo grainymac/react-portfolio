@@ -15,19 +15,19 @@ const Sidebar = () => {
             </Link>
             <nav>
                 <NavLink exact='true' activeclassname='active' to='/'>
-                    <FontAwesomeIcon icon={faHome} color='#4d4d4e' />
+                    <FontAwesomeIcon icon={faHome} color='#CED2D1' />
                 </NavLink>
                 <NavLink exact='true' activeclassname='active' to='/about' className='about-link'>
-                    <FontAwesomeIcon icon={faUser} color='#4d4d4e' />
+                    <FontAwesomeIcon icon={faUser} color='#CED2D1' />
                 </NavLink>
                 <NavLink exact='true' activeclassname='active' to='/work' className='work-link'>
-                    <FontAwesomeIcon icon={faKeyboard} color='#4d4d4e' />
+                    <FontAwesomeIcon icon={faKeyboard} color='#CED2D1' />
                 </NavLink>
                 <NavLink exact='true' activeclassname='active' to='/skills' className='experience-link'>
-                    <FontAwesomeIcon icon={faGamepad} color='#4d4d4e' />
+                    <FontAwesomeIcon icon={faGamepad} color='#CED2D1' />
                 </NavLink>
                 <NavLink exact='true' activeclassname='active' className='contact-link' to='/contact'>
-                    <FontAwesomeIcon icon={faEnvelope} color='#4d4d4e' />
+                    <FontAwesomeIcon icon={faEnvelope} color='#CED2D1' />
                 </NavLink>
             </nav>
             <ul>

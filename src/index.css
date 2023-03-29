@@ -1,6 +1,6 @@
 :root {
-  --color-bg: #021723;
-  --color-primary: #F3DE8A;
+  --color-bg: #C4C9C3;
+  --color-primary: #5A5E5E;
 }
 
 
@@ -12,8 +12,8 @@ html {
 body {
   margin: 0;
   font: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
-  color: #F9F8F8;
-  background: #7E7F9A;
+  color: #000;
+  background: #C4C9C3;
   overflow: auto;
   display: block;
   -webkit-font-smoothing: antialiased;

@@ -1,5 +1,5 @@
 .nav-bar {
-    background: #272838;
+    background: #5A5E5E;
     width: 70px;
     height: 100%;
     position: fixed;
@@ -36,7 +36,7 @@
 
         a {
             font-size: 22px;
-            color: #EB9486;
+            color: #F16362;
             display: block;
             line-height: 51px;
             height: 51px;
@@ -48,7 +48,7 @@
             }
 
             &:hover {
-                color: #F3DE8A;
+                color: #E8C700;
 
                 svg {
                     opacity: 0;
@@ -81,31 +81,35 @@
 
         a.about-link {
             &:after {
+                font-weight: 700;
                 content: 'ABOUT';
             }
         }
 
         a.work-link {
             &:after {
+                font-weight: 700;
                 content: 'WORK';
             }
         }
 
         a.experience-link {
             &:after {
+                font-weight: 700;
                 content: 'SKILLS';
             }
         }
 
         a.contact-link {
             &:after {
+                font-weight: 700;
                 content: 'CONTACT';
             }
         }
 
         a.active {
             svg {
-                color: #F3DE8A;
+                color: #65CA9E;
             }
         }
     }
@@ -128,7 +132,7 @@
                 line-height: 16px;
 
                 &:hover svg {
-                    color: #EB9486;
+                    color: #F16362;
                 }
             }
         }
@@ -136,7 +140,7 @@
 }
 
 .xp-icon {
-    color: #585859;
+    color: #CED2D1;
     border-image-width: auto;
     border-image: fill;
     height: 30px;

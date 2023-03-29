@@ -19,8 +19,9 @@
     justify-content: space-between;
     align-items: center;
     width: 90%;
-    margin: 10px 10px;
-    border: 2px white solid;
+    margin: 10px 80px;
+    border: 2px #65CA9E double;
+    background-color: #5A5E5E;
     border-radius: 2rem;
 
     @media screen and (max-width: 500px) {
@@ -32,6 +33,25 @@
 
     img {
         height: 200px;
+        padding: 5px 40px;
+    }
+
+    .work-info {
+        margin: 5px 10px;
+        width: 60%;
+
+        h2 {
+            font-size: 25px;
+            color: #F16362;
+        }
+
+        h3 {
+            font-size: 20px;
+        }
+
+        p {
+            color: #E8C700;
+        }
     }
 }
 
