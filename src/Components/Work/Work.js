@@ -19,6 +19,9 @@ const Work = () => {
   return (
     <>
     <div className='container work-page'>
+      <h1 className='work-header'>
+        <AnimatedLetters letterClass={letterClass} strArray={['M', 'y', ' ', 'P', 'r', 'o', 'j', 'e', 'c', 't', 's']} idx={15} />
+      </h1>
       <div className='work-container'>
         <img src={discoverIt} alt='discoverIt screenshot' />
         <div className='work-info'>
