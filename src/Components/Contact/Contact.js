@@ -32,7 +32,7 @@ const Contact = () => {
                 <h1>
                     <AnimatedLetters letterClass={letterClass} strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']} idx={15}/>
                 </h1>
-                <p>
+                <p className='contact-text'>
                     I am free and available for full-time, part-time, and contract positions! I am also interested in freelance opportunities, especially creative and ambitious projects. If you have any other requests or questions, please do not hesitate to get in touch with me via the form below.
                 </p>
                 <div className='contact-form'>

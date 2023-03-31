@@ -51,8 +51,8 @@ const Home = () => {
           </h1>
           <h2>Front-end Developer | Software Developer | Photographer | Musician | Graphic Designer | Tech-enthusiast | United States Air Force Veteran</h2>
           <div className='button-container'>
-            <Link to='/contact' className='flat-button'>CONTACT ME</Link>
-            <a href={resume} className='flat-button'>MY RESUME</a>
+            <Link to='/contact' className='flat-button contact-me'>CONTACT ME</Link>
+            <a href={resume} className='flat-button my-resume'>MY RESUME</a>
           </div>
         </div>
         <div className='logo-container'>
