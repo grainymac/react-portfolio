@@ -23,7 +23,7 @@ const Work = () => {
       </h1>
       <div className='card-box'>
         <div className='card-details'>
-          <a href='http://theneoteric.vercel.app'>
+          <a href='https://discoverit2208.vercel.app'>
             <div className='workCard-container'>
               <h2>DiscoverIt</h2>
               <img src={discoverIt} alt='discoverIt app page' />
@@ -47,14 +47,14 @@ const Work = () => {
         </div>
 
         <div className='card-details'>
-          <a href='http://theneoteric.vercel.app'>
+          <a href='http://dokes.surge.sh'>
             <div className='workCard-container'>
               <h2>Dokes</h2>
               <img src={dokes} alt='dokes app page' />
             </div>
           </a>
           <aside>
-            the neoteric
+            Dokes is a dad joke application built utilizing React and Router, Cypress testing of DOM elements and content, as well as our new tools of MUI and GSAP we have decided to delve into for this project.
           </aside>
         </div>
       </div>
