@@ -57,6 +57,18 @@ const Work = () => {
             Dokes is a dad joke application built utilizing React and Router, Cypress testing of DOM elements and content, as well as our new tools of MUI and GSAP we have decided to delve into for this project.
           </aside>
         </div>
+        
+        <div className='card-details'>
+          <a href='http://dokes.surge.sh'>
+            <div className='workCard-container'>
+              <h2>Rancid Tomatillos</h2>
+              <img src={dokes} alt='rancid app page' />
+            </div>
+          </a>
+          <aside>
+
+          </aside>
+        </div>
       </div>
     </div>
     <Loader type='ball-scale-ripple-multiple' />
