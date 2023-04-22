@@ -1,7 +1,7 @@
 import React from 'react'
 import { Parallax } from 'react-parallax'
 
-import im2 from '../../assets/images/im2.jpg'
+import im2 from '../../assets/images/im5.jpg'
 
 const About3 = () => {
   return (

@@ -44,3 +44,26 @@ body {
   font-size: 2rem;
   letter-spacing: 10px;;
 }
+
+.underConstruction-container {
+  position: absolute;
+  left: 400px;
+  top: 300px;
+}
+
+.underConstruction-title {
+  font-size: 3rem;
+}
+
+.homeButton {
+  height: 4rem;
+  width: 8rem;
+  border-radius: 2rem;
+  background-color: #5A5E5E;
+  color: #fff;
+}
+
+.homeButton:hover {
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
